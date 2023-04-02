@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.editor-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.editor-inner-wrapper {
+  width: 80%;
+  height: 100%;
+  border: 4px solid black;
+}
+.editor-wrapper-loading {
+  display: none;
+}
+.editor-wrapper-ready {
+  display: flex;
+}
+.control-center-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.control-center-inner-wrapper {
+  width: 80%;
+  margin-top: 50px;
+  border: 4px solid black;
+}
+.control-center {
+  padding: 20px;
+}
+
+.control-center > button {
+  height: 50px;
+  background-color: white;
+  box-shadow: none;
+  width: 200px;
+  border: 1px solid black;
+}
+.control-center > button:active {
+  height: 50px;
+  background-color: gray;
+  box-shadow: none;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.loading-wrapper-ready {
+  display: none
+}
+.loading-wrapper-loading {
+  display: block
+}
+.loading-wrapper-timeout {
+  display: block
+}
