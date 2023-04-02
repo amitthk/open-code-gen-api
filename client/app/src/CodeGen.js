@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000"
+const API_URL = process.env.REACT_APP_SERVER_URL
 
 
 export async function sendPromptQuery(prompt) {
