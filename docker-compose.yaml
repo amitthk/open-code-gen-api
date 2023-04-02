@@ -2,6 +2,6 @@ version: "3"
 
 services:
   codegen:
-    image: paolorechia/open-code-gen-api:0.1.1
+    image: amitthk/open-code-gen-api:0.1.1
     ports:
       - 0.0.0.0:8000:8000
